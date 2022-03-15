@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "bebas neue";
+    src: url(fontes/BebasNeue-Regular.ttf) format('TrueType');
+}
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format('OpenType');
+}
+
+body{
+    background-color:#ccf5c2 ;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, #79e2a8, #298b55,#217446);
+    padding: 15px;
+    margin: -8px;
+    box-shadow: 2px 2px 2px #1b5f3a7a;
+
+}
+
+h1#cabeçalho{
+    color: white;
+    font-weight: 400;
+    font-size: 3.5em;
+    font-family: "bebas neue", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.801);
+
+}
+
+h2.frase{
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+
+}
+
+nav{
+    background-color: #1e6940;
+    margin: 0 -14px -14px -14px;
+    padding: 8px;
+}
+
+nav > a{
+    transition-duration: 0.5s;
+}
+
+a.menu{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a.menu:hover{
+    background-color: #298b55;
+    color: #87c7b1;
+    
+}
+
+main{
+    background-color: white;
+    margin: 9px 100px 15px 100px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 2px #1f6e4367;
+    
+}
+
+p{  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.9em;
+}
+
+h1.titulo1{
+    color: #1e6940;
+    font-family: "idroid", sans-serif;
+    font-size: 1.9em;
+    text-align: left;
+    text-shadow: 1px 1px 1px #1a5a377a;
+}
+
+h2.titulo2{
+    background-image: linear-gradient(to right, #71e6a5c0,  transparent);
+    color: #1e6940;
+    font-family: "idroid", sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    text-shadow: 1px 1px 1px #1a5a3765;
+    text-indent: 15px;
+}
+
+h2.titulo3{
+    background-image: linear-gradient(to right, #71e6a5c0,  transparent);
+    color: #1e6940;
+    font-family: "idroid", sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    text-shadow: 1px 1px 1px #1a5a3765;
+    text-indent: 15px;
+}
+
+img.dandroids{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+img.irinablok{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+img.bugdroid{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 350px; 
+}
+
+article.backgroundvideo{
+    background-color: #1e6940;
+    margin-right: -20px;
+    margin-left: -20px;
+    padding: 20px;
+}
+
+iframe.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
+
+aside.extra{
+    background-color: #b0f1cdc0;
+    border-radius: 8px 8px 8px 8px;
+    padding: 0px 10px 10px 10px;
+    box-shadow: 2px 2px 2px rgba(49, 49, 49, 0.349);
+}
+
+h2.titulo4{
+    background-color: #5aa77c;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+div{
+    display:inline-block;
+    text-align: left;
+    list-style-type: none;
+    margin-right: 150px;
+    margin-left: auto;
+    padding: 15px 40px 15px 40px;
+}
+
+strong{
+    color: #1e6940;
+    font-weight: bold;
+}
+
+span.destaque{
+    color: #1e6940;
+    font-weight: bold;
+}
+
+a.linkexterno{
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+footer{
+    background-color: #1e6940;
+    padding: 1px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+p.rodape{
+     color: white;
+     text-align: center;
+     font-size: 0.9em;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0px;
+     padding: 4px;
+     text-shadow: 1px 1px 1px rgba(37, 37, 37, 0.37);
+     
+ }
+
+a.linkrodape{
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px rgba(37, 37, 37, 0.37);
+ }
+
+ 

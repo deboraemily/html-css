@@ -1,0 +1,68 @@
+No header a frase pode ser colocada na tag <p>
+
+Coloquei muitas class e não é necessário, pode-se colocar o elemento > filho, por exemplo, header > p (o estilo vai ser aplicado apenas na tag <p> do header)
+
+A estrutura não precisa ser necessariamento main > section > article > aside,
+pode ser apenas <main> 
+                    <article> "todos elementos (h1, p, a, picture, video, div ...) </article>
+                    <aside> conteudo extra </aside>
+
+Termo destacado do texto "negrito" usar a tag <strong> e estilizar essa tag na css.
+
+Na CSS o * é atributo global, vai colocar um padrão para todos os elementos, por exemplo:
+para "grudar o header, footer nos topos e laterais" é só tirar toda margem e padding, da seguinte forma:
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    depois configurar margin e padding isoladamente para header, nav, footer ...
+
+:root{
+    --cor0: nome da cor;
+    --font-padrao: arial;
+    --font-destaque: nome da fonte;
+} 
+O root(raiz) cria variaveis css, coloca essas variaveis no topo do documento css, as variaves vão servir para achar a paleta de cores, as fontes que são usadas de forma mais rapida e caso queira mudar as cores e fontes da pagina inteira é só mudar no :root que será aplicado em todos elementos (não será necessário mudar elemento por elemento)
+
+Configurar bordas de forma individual, usa-se: border-bottom-left-radius: px; ou border-top-right-radius: px; ...
+
+header - pode usar min-height para ajustar a altura do header
+
+<a> - se colocar a propriedade transition-duration: 0.5s; (dá um efeito de fade quando passar o mouse em cima)
+
+line-height - dá um espaçamento entre as linhas do texto
+
+background-image: linear-gradient ( posiçao, cor, transparent) dá efeito transparente no fim do deradê
+
+Dividir uma lista em colunas - ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "\2714\00a0" (colocar o emogi na frente do número da lista, essa forma não é compatível com todos os navegadores, 00a0 é o &nbsp (espaço) e o 2714 é o código do emoji)
+}
+
+Para colocar o emoji do link pode usar o pseudo-elemento ::after e/ou ::before{
+                                                                                content: "\00a0\1f517";
+                                                                            }
+
+responsividade do video - colocar o inframe dentro da div - div.video{
+                                                                        background:...;
+                                                                        margin:...;
+                                                                        padding:...;
+                                                                        padding-bottom:...;
+                                                                        position: relative;
+                                                                    }
+                                                            div.video > inframe{
+                                                                position: absolute;
+                                                                top: 5%;
+                                                                left: %;
+                                                                whidth: %;
+                                                                hight: %;
+                                                            }        
+coloquei o video no <article> e usei iframe.video{
+                                                    display: block;
+                                                    margin-left: auto;
+                                                    margin-right: auto;
+                                                    width: 70%;
+    
+                                                } e deu certo
+
